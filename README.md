@@ -100,44 +100,62 @@ flutter build web
 
 ---
 
-## 📸 Capturas de Pantalla y Demostración
+---
 
-A continuación se presentan las secciones correspondientes a la demostración visual de la aplicación:
+## 🎥 Video Demostrativo de Funcionamiento
+
+> [!TIP]
+> Demostración en video del registro, los tres métodos de inicio de sesión y la navegación del feed vertical estilo TikTok:
+> 
+> 🔗 **Enlace al Video:** [👉 Haz clic aquí para ver el video demostrativo](PEGAR_AQUI_EL_ENLACE_DE_TU_VIDEO)
+> *(Reemplaza `PEGAR_AQUI_EL_ENLACE_DE_TU_VIDEO` por tu enlace de YouTube, Google Drive, Loom o Teams)*
+
+---
+
+## 📸 Capturas de Pantalla de la Aplicación
 
 ### 1. Vista de Login (`/login`)
-- Formulario con validación de correo y contraseña obligatorios y formato.
-- Enlace "¿No tienes cuenta? Regístrate".
-- Botones de inicio de sesión rápido con Google y Facebook.
+Formulario de inicio de sesión con validación de campos obligatorios, formato de correo, enlaces de navegación y botones sociales.
 
-*(Inserta aquí tu captura: `assets/screenshots/login.png`)*
+<p align="center">
+  <img src="screenshots/login.png" alt="Vista de Login" width="380" />
+</p>
 
 ---
 
 ### 2. Vista de Registro (`/registro`)
-- Campos de nombre completo, correo, contraseña (mínimo 6 caracteres) y confirmar contraseña.
-- Validación de coincidencia de contraseñas y mensajes de error descriptivos.
-- Redirección automática al feed al registrarse con éxito.
+Formulario para crear cuenta con nombre completo, correo, contraseña (mínimo 6 caracteres) y validación de confirmación coincidente. Al completarse, inicia sesión en Firebase y redirige automáticamente al `/feed`.
 
-*(Inserta aquí tu captura: `assets/screenshots/registro.png`)*
+<p align="center">
+  <img src="screenshots/registro.png" alt="Vista de Registro" width="380" />
+</p>
 
 ---
 
-### 3. Métodos de Inicio de Sesión
-- Demostración de acceso mediante Correo y Contraseña.
-- Ventana emergente de inicio de sesión con Google.
-- Ventana emergente de inicio de sesión con Facebook.
+### 3. Métodos de Inicio de Sesión Social (Google y Facebook)
+Integración y autenticación con Firebase mediante ventanas emergentes (OAuth Popups):
 
-*(Inserta aquí tus capturas o GIF: `assets/screenshots/auth_methods.png`)*
+#### Inicio de sesión con Google
+<p align="center">
+  <img src="screenshots/auth_google.png" alt="Autenticación con Google" width="550" />
+</p>
+
+#### Inicio de sesión con Facebook
+<p align="center">
+  <img src="screenshots/auth_facebook.png" alt="Autenticación con Facebook" width="550" />
+</p>
 
 ---
 
 ### 4. Feed de Videos Vertical Estilo TikTok (`/feed`)
-- Desplazamiento vertical entre los 4 videos.
-- Auto-play del video enfocado y pausa con toque en pantalla.
-- Insignia de usuario, descripción, contador de likes interactivo, comentarios y audio giratorio.
-- Barra superior con nombre/correo del usuario y botón de Logout.
+- Desplazamiento vertical fluido entre los 4 videos (`PageView.builder`).
+- Reproducción automática exclusiva del video enfocado y pausa/reanudación al tocar la pantalla.
+- Insignia de creador, descripción, audio, likes interactivos (cambian a rojo), panel inferior de comentarios y disco musical giratorio.
+- Barra superior con nombre o correo del usuario activo y botón de Logout multisesión.
 
-*(Inserta aquí tu video o captura: `assets/screenshots/feed_tiktok.png`)*
+<p align="center">
+  <i>(Puedes adjuntar aquí una captura o GIF del feed: <code>screenshots/feed.png</code> o ver el video demostrativo en la sección superior)</i>
+</p>
 
 ---
 
