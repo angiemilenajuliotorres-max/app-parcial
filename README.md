@@ -107,7 +107,7 @@ flutter build web
 > [!TIP]
 > Demostración en video del registro, los tres métodos de inicio de sesión y la navegación del feed vertical estilo TikTok:
 > 
-> 🔗 **Enlace al Video:** [👉 Haz clic aquí para ver el video demostrativo](PEGAR_AQUI_EL_ENLACE_DE_TU_VIDEO)
+> 🔗 **Enlace al Video:** [👉 Haz clic aquí para ver el video demostrativo]((https://drive.google.com/file/d/1qrkBTJEgNwb2UrP2lRecWmxv2E8-Cbfo/view?usp=drive_link))
 > *(Reemplaza `PEGAR_AQUI_EL_ENLACE_DE_TU_VIDEO` por tu enlace de YouTube, Google Drive, Loom o Teams)*
 
 ---
